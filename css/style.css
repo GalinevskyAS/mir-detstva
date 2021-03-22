@@ -458,29 +458,6 @@ body {
   color: #fff;
 }
 
-.about-link.active,
-.team-link.active,
-.toys-link.active,
-.history-link.active,
-.contacts-link.active {
-  color: #9A9A9A;
-  text-align: center;
-}
-
-.about-link.active:after,
-.team-link.active:after,
-.toys-link.active:after,
-.history-link.active:after,
-.contacts-link.active:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 5px;
-  width: 93%;
-  height: 1px;
-  background-color: #fff;
-}
-
 .logo {
   margin-right: 15px;
 }
@@ -1435,6 +1412,31 @@ input.form__input {
 
 .footer__confid a {
   font-size: 11px;
+}
+
+@media (min-width: 993px) {
+  .about-link.active,
+  .team-link.active,
+  .toys-link.active,
+  .history-link.active,
+  .contacts-link.active {
+    color: #9A9A9A;
+    text-align: center;
+  }
+
+  .about-link.active:after,
+  .team-link.active:after,
+  .toys-link.active:after,
+  .history-link.active:after,
+  .contacts-link.active:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    width: 93%;
+    height: 1px;
+    background-color: #fff;
+  }
 }
 
 @media (max-width: 1200px) {
